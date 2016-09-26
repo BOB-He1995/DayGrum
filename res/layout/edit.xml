@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFAF0"
+    >
+    
+    <TextView 
+        android:id="@+id/text_view"
+        android:background="#FFFAF0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="This is a Dairy"
+        />
+	
+    <EditText 
+        android:id="@+id/edit_text"
+    	android:background="#FFFAF0"        
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Type your dairy"
+		android:maxLines="15"
+        />
+</LinearLayout>
